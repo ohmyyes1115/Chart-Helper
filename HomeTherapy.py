@@ -34,7 +34,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-# pytesseract.pytesseract.tesseract_cmd = r'<C:\Users\yy\Desktop\HomeTherapy\tesseract-4.0.0-alpha>\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'<tesseract-4.0.0-alpha>\tesseract.exe'
 # img = Image.open('sample.png')
 # captcha_str = pytesseract.image_to_string(img, config="--psm 8 --oem 0 -c tessedit_char_whitelist"
 #                                                                "=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ")
@@ -49,7 +49,7 @@ TAKE_CARE_HOME_PAGE_URL = r'https://csms2.sfaa.gov.tw/lcms/saTree/treeIndex?saPo
 # 照顧平台 - 照會列表
 CLIENT_SEARCH_PAGE_URL = r'https://csms2.sfaa.gov.tw/lcms/qd/listQd111'
 
-# CHROME_DRIVER_EXE_PATH = r'C:\Users\yy\Desktop\HomeTherapy\chromedriver.exe'
+# CHROME_DRIVER_EXE_PATH = r'chromedriver.exe'
 CHROME_DRIVER_EXE_PATH = r'chromedriver.exe'
 FIREFOX_DRIVER_EXE_PATH = r'geckodriver.exe'
 PHANTOM_JS_EXE_PATH = r'phantomjs.exe'  # deprecated
